@@ -1,5 +1,7 @@
 MACOSX LAZARUS SAMPLES
-_________________________________-
+_________________________________
+Bu projemde 1 er 1 er artan sayaç ve saniye olarak artan kronometre yaptım.
+aşagıda projede kullandıgım bilenşenler mevcuttur.
 
 1. form kullanımı
 2. panel kullanımı
@@ -10,3 +12,7 @@ _________________________________-
 7. fonsksiyon kullanımı
 8. procedure kullanımı
 9. label kullanımı
+10. button kullanımı
+11. statusbar kullanımı
+12. memo kullanımı
+
