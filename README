@@ -2,7 +2,7 @@ MACOSX LAZARUS SAMPLES
 _________________________________
 Bu projemde 1 er 1 er artan sayaç ve saniye olarak artan kronometre yaptım.
 aşagıda projede kullandıgım bilenşenler mevcuttur.
-![alt text](https://raw.githubusercontent.com/mdemir2002/lazarus_kronometre/blob/master/resim1.png)
+![alt text](https://raw.githubusercontent.com/mdemir2002/lazarus_kronometre/master/resim1.png)
 
 1. form kullanımı
 2. panel kullanımı
