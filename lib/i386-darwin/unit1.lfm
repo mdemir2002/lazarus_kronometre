@@ -1,0 +1,309 @@
+object Form1: TForm1
+  Left = 541
+  Height = 267
+  Top = 216
+  Width = 336
+  ClientHeight = 267
+  ClientWidth = 336
+  Position = poDesktopCenter
+  LCLVersion = '2.0.4.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 15
+    Top = 252
+    Width = 336
+    Panels = <    
+      item
+        Text = 'Tarih:'
+        Width = 50
+      end    
+      item
+        Width = 100
+      end    
+      item
+        Text = 'Zaman:'
+        Width = 50
+      end    
+      item
+        Width = 100
+      end>
+    SimplePanel = False
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 252
+    Top = 0
+    Width = 336
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'Sayaç'
+      ClientHeight = 213
+      ClientWidth = 330
+      object Panel1: TPanel
+        Left = 0
+        Height = 50
+        Top = 0
+        Width = 330
+        Align = alTop
+        BevelColor = 7875998
+        ClientHeight = 50
+        ClientWidth = 330
+        TabOrder = 0
+        object Memo2: TMemo
+          Left = 1
+          Height = 48
+          Top = 1
+          Width = 328
+          Align = alClient
+          ScrollBars = ssAutoVertical
+          TabOrder = 0
+        end
+      end
+      object Panel2: TPanel
+        Left = 0
+        Height = 45
+        Top = 168
+        Width = 330
+        Align = alBottom
+        ClientHeight = 45
+        ClientWidth = 330
+        TabOrder = 1
+        object Button1: TButton
+          Left = 8
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Başla'
+          OnClick = Button1Click
+          TabOrder = 0
+        end
+        object Button3: TButton
+          Left = 128
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Dur'
+          OnClick = Button3Click
+          TabOrder = 1
+        end
+        object Button2: TButton
+          Left = 248
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Temizle'
+          OnClick = Button2Click
+          TabOrder = 2
+        end
+      end
+      object Panel3: TPanel
+        Left = 0
+        Height = 118
+        Top = 50
+        Width = 330
+        Align = alClient
+        ClientHeight = 118
+        ClientWidth = 330
+        TabOrder = 2
+        object Label1: TLabel
+          Left = 1
+          Height = 116
+          Top = 1
+          Width = 328
+          Align = alClient
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '00'
+          Font.Height = -96
+          Font.Name = 'Arial Bold'
+          Layout = tlCenter
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Kroneometre'
+      ClientHeight = 213
+      ClientWidth = 330
+      object Panel4: TPanel
+        Left = 0
+        Height = 50
+        Top = 0
+        Width = 330
+        Align = alTop
+        BevelColor = 7875998
+        ClientHeight = 50
+        ClientWidth = 330
+        TabOrder = 0
+        object Memo1: TMemo
+          Left = 1
+          Height = 48
+          Top = 1
+          Width = 328
+          Align = alClient
+          ParentBidiMode = False
+          ReadOnly = True
+          ScrollBars = ssAutoVertical
+          TabOrder = 0
+        end
+      end
+      object Panel5: TPanel
+        Left = 0
+        Height = 50
+        Top = 163
+        Width = 330
+        Align = alBottom
+        ClientHeight = 50
+        ClientWidth = 330
+        TabOrder = 1
+        object Button4: TButton
+          Left = 8
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Başla'
+          OnClick = Button4Click
+          TabOrder = 0
+        end
+        object Button5: TButton
+          Left = 128
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Dur'
+          OnClick = Button5Click
+          TabOrder = 1
+        end
+        object Button6: TButton
+          Left = 248
+          Height = 25
+          Top = 8
+          Width = 75
+          Caption = 'Temizle'
+          OnClick = Button6Click
+          TabOrder = 2
+        end
+      end
+      object Panel6: TPanel
+        Left = 0
+        Height = 113
+        Top = 50
+        Width = 330
+        Align = alClient
+        ClientHeight = 113
+        ClientWidth = 330
+        TabOrder = 2
+        object Label4: TLabel
+          Left = 1
+          Height = 111
+          Top = 1
+          Width = 328
+          Align = alClient
+          Alignment = taCenter
+          AutoSize = False
+          Caption = '00:00:00'
+          Font.Height = -72
+          Font.Name = 'Arial Bold'
+          Layout = tlCenter
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Hakkında'
+      ClientHeight = 213
+      ClientWidth = 330
+      object Panel7: TPanel
+        Left = 0
+        Height = 213
+        Top = 0
+        Width = 330
+        Align = alClient
+        ClientHeight = 213
+        ClientWidth = 330
+        TabOrder = 0
+        object Label5: TLabel
+          Left = 16
+          Height = 16
+          Top = 72
+          Width = 90
+          Caption = '05365227616'
+          ParentColor = False
+        end
+        object Label6: TLabel
+          Left = 16
+          Height = 16
+          Top = 8
+          Width = 93
+          Caption = 'Mehmet Demir'
+          ParentColor = False
+        end
+        object Label2: TLabel
+          Left = 16
+          Height = 16
+          Top = 32
+          Width = 176
+          Caption = 'mdemir@dbdbilgisayar.com'
+          ParentColor = False
+        end
+        object Label3: TLabel
+          Left = 16
+          Height = 16
+          Top = 50
+          Width = 76
+          Caption = '@mdemir38'
+          ParentColor = False
+        end
+        object Button7: TButton
+          Left = 8
+          Height = 25
+          Top = 168
+          Width = 75
+          Caption = 'sa'
+          OnClick = Button7Click
+          TabOrder = 0
+        end
+        object Button8: TButton
+          Left = 128
+          Height = 25
+          Top = 168
+          Width = 75
+          Caption = 'dk'
+          OnClick = Button8Click
+          TabOrder = 1
+        end
+        object Button9: TButton
+          Left = 242
+          Height = 25
+          Top = 168
+          Width = 75
+          Caption = 'sn'
+          OnClick = Button9Click
+          TabOrder = 2
+        end
+      end
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    left = 40
+    top = 136
+  end
+  object Timer2: TTimer
+    Enabled = False
+    OnTimer = Timer2Timer
+    left = 272
+    top = 128
+  end
+  object Timer3: TTimer
+    OnTimer = Timer3Timer
+    left = 161
+    top = 150
+  end
+end
